@@ -4,3 +4,5 @@ export const formatFileSizeDisplay = value => {
   }
   return `${parseFloat((value / 1024).toFixed(1))} MB`;
 };
+
+
