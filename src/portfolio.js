@@ -19,16 +19,41 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+// const greeting = {
+//   username: "Saad Pasta",
+//   title: "Hi all, I'm Saad",
+//   subTitle: emoji(
+//     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+//   ),
+//   resumeLink:
+//     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+//   displayGreeting: true // Set false to hide this section, defaults to true
+// };
+
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ashwani Singh",
+  title: "Hi There, I'm Ashwani Singh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Performance Marketing Expert 🚀 with 4+ years of experience in Performance Marketing, Data Analytics, and Project Management.\n\n" +
+    "- Managed over $400,000 in media spend, cutting CPC by 20%.\n" +
+    "- Achieved a 5X ROAS for eCommerce clients, igniting rapid sales growth.\n" +
+    "- Reduced CPA by 27% for an AI platform, streamlining overall efficiency.\n\n" +
+    "Expertise in B2B, D2C & B2C markets, specializing in fashion, e-commerce, and lead generation. Combining market insights with innovative tactics to deliver outstanding business results.\n\n" +
+    "💼 Services We Offer:\n" +
+    "- Google Ads\n" +
+    "- Meta Ads\n" +
+    "- Programmatic Ads (DV360)\n" +
+    "- Data Visualization (Looker Studio)\n" +
+    "- Google Analytics 4\n" +
+    "- Social Media Marketing\n" +
+    "- Influence Marketing"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Same resume link
+  displayGreeting: true // Set false to hide this section
 };
+
+
 
 // Social Media Links
 
@@ -47,126 +72,226 @@ const socialMediaLinks = {
 
 // Skills Section
 
-const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+// const skillsSection = {
+//   title: "What I do",
+//   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+//   skills: [
+//     emoji(
+//       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+//     ),
+//     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+//     emoji(
+//       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+//     )
+//   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+//   /* Make Sure to include correct Font Awesome Classname to view your icon
+// https://fontawesome.com/icons?d=gallery */
+
+//   softwareSkills: [
+//     {
+//       skillName: "html-5",
+//       fontAwesomeClassname: "fab fa-html5"
+//     },
+//     {
+//       skillName: "css3",
+//       fontAwesomeClassname: "fab fa-css3-alt"
+//     },
+//     {
+//       skillName: "sass",
+//       fontAwesomeClassname: "fab fa-sass"
+//     },
+//     {
+//       skillName: "JavaScript",
+//       fontAwesomeClassname: "fab fa-js"
+//     },
+//     {
+//       skillName: "reactjs",
+//       fontAwesomeClassname: "fab fa-react"
+//     },
+//     {
+//       skillName: "nodejs",
+//       fontAwesomeClassname: "fab fa-node"
+//     },
+//     {
+//       skillName: "swift",
+//       fontAwesomeClassname: "fab fa-swift"
+//     },
+//     {
+//       skillName: "npm",
+//       fontAwesomeClassname: "fab fa-npm"
+//     },
+//     {
+//       skillName: "sql-database",
+//       fontAwesomeClassname: "fas fa-database"
+//     },
+//     {
+//       skillName: "aws",
+//       fontAwesomeClassname: "fab fa-aws"
+//     },
+//     {
+//       skillName: "firebase",
+//       fontAwesomeClassname: "fas fa-fire"
+//     },
+//     {
+//       skillName: "python",
+//       fontAwesomeClassname: "fab fa-python"
+//     },
+//     {
+//       skillName: "docker",
+//       fontAwesomeClassname: "fab fa-docker"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
+
+const skillsSection = {
+  title: "What I Do",
+  subTitle: "PERFORMANCE MARKETING EXPERT HELPING BUSINESSES SCALE PROFITABLY",
+  skills: [
+    emoji("⚡ Manage high-budget digital marketing campaigns across Google, Meta, and Programmatic Ads"),
+    emoji("⚡ Optimize ad performance to maximize ROAS and minimize CPA"),
+    emoji("⚡ Develop data-driven marketing strategies using analytics and visualization tools"),
+    emoji("⚡ Expertise in B2B, D2C & B2C marketing across fashion, e-commerce, and lead generation"),
+    emoji("⚡ Implement and analyze marketing data with Google Analytics 4 & Looker Studio")
+  ],
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Google Ads",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Meta Ads",
+      fontAwesomeClassname: "fab fa-facebook"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Programmatic Ads (DV360)",
+      fontAwesomeClassname: "fas fa-bullseye"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Google Analytics 4",
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Looker Studio",
+      fontAwesomeClassname: "fas fa-chart-pie"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Social Media Marketing",
+      fontAwesomeClassname: "fab fa-instagram"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Influencer Marketing",
+      fontAwesomeClassname: "fas fa-users"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Education Section
+
+// const educationInfo = {
+//   display: true, // Set false to hide this section, defaults to true
+//   schools: [
+//     {
+//       schoolName: "Harvard University",
+//       logo: require("./assets/images/harvardLogo.png"),
+//       subHeader: "Master of Science in Computer Science",
+//       duration: "September 2017 - April 2019",
+//       desc: "Participated in the research of XXX and published 3 papers.",
+//       descBullets: [
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+//       ]
+//     },
+//     {
+//       schoolName: "Stanford University",
+//       logo: require("./assets/images/stanfordLogo.png"),
+//       subHeader: "Bachelor of Science in Computer Science",
+//       duration: "September 2013 - April 2017",
+//       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+//       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+//     }
+//   ]
+// };
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "RTU University",
+      // logo: require("./assets/images/jecrcLogo.png"), // Update with actual logo path
+      subHeader: "Bachelor Degree in Mechanical Engineering",
+      duration: "2017 - 2021",
+      desc: "",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "RBS College",
+      // logo: require("./assets/images/rbsLogo.png"), // Update with actual logo path
+      subHeader: "Intermediate, Science & Maths",
+      duration: "2015 - 2017",
+      desc: "",
+      descBullets: []
+    },
+    {
+      schoolName: "Oxford Sr. Sec School",
+      // logo: require("./assets/images/oxfordLogo.png"), // Update with actual logo path
+      subHeader: "CBSE",
+      duration: "2014",
+      desc: "",
+      descBullets: []
     }
   ]
 };
 
+
 // Your top 3 proficient stacks/tech experience
 
+// const techStack = {
+//   viewSkillBars: true, //Set it to true to show Proficiency Section
+//   experience: [
+//     {
+//       Stack: "Frontend/Design", //Insert stack or technology you have experience in
+//       progressPercentage: "90%" //Insert relative proficiency in percentage
+//     },
+//     {
+//       Stack: "Backend",
+//       progressPercentage: "70%"
+//     },
+//     {
+//       Stack: "Programming",
+//       progressPercentage: "60%"
+//     }
+//   ],
+//   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+// };
+
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set to true to show the Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Google Ads",
+      progressPercentage: "80%" // Adjust based on the image
     },
     {
-      Stack: "Backend",
+      Stack: "Meta Ads",
+      progressPercentage: "80%" 
+    },
+    {
+      Stack: "DV360",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "GA4 & GTM",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section, defaults to false
 };
+
 
 // Work experience section
 
@@ -206,7 +331,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -343,7 +468,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,15 +481,15 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 7488529228",
+  email_address: "ashwani.singh0339@gmail.com"
 };
 
 // Twitter Section
@@ -374,7 +499,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
